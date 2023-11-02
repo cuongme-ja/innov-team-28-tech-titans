@@ -18,6 +18,24 @@ namespace Web.Controllers
       return View();
     }
 
+    [Route("web-scraping")]
+    public IActionResult WebScraping()
+    {
+      return View();
+    }
+
+    [Route("survey")]
+    public IActionResult Survey()
+    {
+      return View();
+    }
+
+    [Route("features")]
+    public IActionResult Features()
+    {
+      return View();
+    }
+
     public IActionResult Privacy()
     {
       return View();
