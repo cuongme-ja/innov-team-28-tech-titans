@@ -1,3 +1,4 @@
+// comment
 namespace Web
 {
   public class Program
