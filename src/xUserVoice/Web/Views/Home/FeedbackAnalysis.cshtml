@@ -1,0 +1,118 @@
+﻿@{
+  ViewData["Title"] = "Feedback Analysis";
+}
+
+<div class="container-lg">
+  <div class="card mb-4">
+    <div class="card-header">Feedback Evaluation and Ranking</div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-3">
+          <label for="formFileLg" class="form-label">Filter by:</label>
+          <select class="form-select" aria-label="Positive">
+            <option value="-1" selected>All</option>
+            <option value="1">Positive</option>
+            <option value="2">Neutral</option>
+            <option value="3">Negative</option>
+          </select>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Source</th>
+              <th scope="col">Feedback</th>
+              <th scope="col">Rank</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>User Support Cente</td>
+              <td>
+                Provide a comprehensive support center with articles, FAQs, and video tutorials to help users troubleshoot common issues independently.
+              </td>
+              <td>1232</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>In-App Messaging</td>
+              <td>Introduce an in-app messaging system that allows direct communication between property owners and tenants, making it easier to address queries and concerns.</td>
+              <td>1999</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Document Management</td>
+              <td>Create a secure document storage and management feature for important documents like lease agreements, property photos, and maintenance records.</td>
+              <td>3578</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>AI-Powered Recommendations</td>
+              <td>
+                Implement an AI-driven recommendation system that suggests properties to tenants based on their preferences and behaviors.
+              </td>
+              <td>4122</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Automated Lease Renewals</td>
+              <td>Offer an option for automated lease renewal processes, streamlining the paperwork for property owners and tenants.</td>
+              <td>4427</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Tenant Community Forums</td>
+              <td>
+                Develop a feature for tenants to connect and share experiences, tips, and recommendations within the platform.
+              </td>
+              <td>7922</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Geolocation Features</td>
+              <td>Incorporate geolocation features, such as neighborhood insights and proximity to essential services, to help tenants make more informed decisions.</td>
+              <td>8011</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>Property Inspection Scheduler</td>
+              <td>Create a tool for property owners to schedule and manage property inspections, ensuring compliance with lease terms and property maintenance.</td>
+              <td>9014</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>Energy Efficiency Ratings</td>
+              <td>Include energy efficiency ratings for properties, helping tenants make environmentally conscious choices and potentially reducing utility costs.</td>
+              <td>9341</td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>Marketplace for Services</td>
+              <td>Develop a marketplace within the platform where users can find and hire services related to property management, such as cleaning, repairs, and landscaping.</td>
+              <td>9874</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+    </div>
+  </div>
+</div>

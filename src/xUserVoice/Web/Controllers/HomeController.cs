@@ -30,8 +30,20 @@ namespace Web.Controllers
       return View();
     }
 
-    [Route("features")]
+    [Route("user-driven-suggestions")]
     public IActionResult Features()
+    {
+      return View();
+    }
+    
+    [Route("feedback-analysis")]
+    public IActionResult FeedbackAnalysis()
+    {
+      return View();
+    }
+
+    [Route("login")]
+    public IActionResult Login()
     {
       return View();
     }

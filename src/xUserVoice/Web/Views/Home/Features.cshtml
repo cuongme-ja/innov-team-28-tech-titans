@@ -1,45 +1,112 @@
 ﻿@{
-  ViewData["Title"] = "Features";
+  ViewData["Title"] = "User-Driven Suggestions";
 }
 
+<div class="container-lg">
+  <div class="card mb-4">
+    <div class="card-header">Feature Recommendations from User Behavior</div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-3">
+          <label for="formFileLg" class="form-label">Filter by:</label>
+          <select class="form-select" aria-label="Positive">
+            <option value="-1" selected>All</option>
+            <option value="1">Positive</option>
+            <option value="2">Neutral</option>
+            <option value="3">Negative</option>
+          </select>
+        </div>
+      </div>
 
-<div class="card">
-  <div class="card-header">
-    New Survey
-  </div>
-  <div class="card-body">
-    <label for="exampleColorInput" class="form-label">Color picker</label>
-    <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
-  </div>
-</div>
+      <br />
 
-<br />
-<br />
-<br />
+      <div class="row">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Feature</th>
+              <th scope="col">Description</th>
+              <th scope="col">Score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>AI Integration</td>
+              <td>Implement artificial intelligence (AI) capabilities using machine learning and natural language processing to enhance candidate search and sorting, optimizing the candidate selection process.</td>
+              <td>0.99</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Enhanced Candidate Experience</td>
+              <td>Create a more user-friendly and candidate-centric interface that allows applicants to track their application progress and provide feedback.</td>
+              <td>0.94</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Multi-Language Support</td>
+              <td>Support multiple languages to manage international candidates and promote diversity.</td>
+              <td>0.91</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Detailed Data Analytics</td>
+              <td>Provide in-depth reporting on candidate and recruitment process performance to optimize the hiring process.</td>
+              <td>0.90</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Automated Candidate Communication</td>
+              <td>Use automated email or messaging to notify candidates of their application status and request additional information.</td>
+              <td>0.88</td>
+            </tr>
+            <tr>
+              <th scope="row">6</th>
+              <td>Integration with Social Media and Websites</td>
+              <td>Enable candidates to apply using their social media and other web platform accounts.</td>
+              <td>0.84</td>
+            </tr>
+            <tr>
+              <th scope="row">7</th>
+              <td>Automated Candidate Categorization</td>
+              <td>Use AI to categorize candidates based on specific criteria and priorities.</td>
+              <td>0.83</td>
+            </tr>
+            <tr>
+              <th scope="row">8</th>
+              <td>Candidate Profile Status Management</td>
+              <td>Allow tracking and monitoring of candidate profile statuses throughout the recruitment process.</td>
+              <td>0.80</td>
+            </tr>
+            <tr>
+              <th scope="row">9</th>
+              <td>Integration with Other Systems</td>
+              <td>Connect with other systems such as Human Resources Information Systems (HRIS) and Customer Relationship Management (CRM) systems to improve data integration and workflow.</td>
+              <td>0.80</td>
+            </tr>
+            <tr>
+              <th scope="row">10</th>
+              <td>Security and Compliance</td>
+              <td>Strengthen security measures to protect candidate data and ensure compliance with privacy regulations, such as GDPR.</td>
+              <td>0.80</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
 
-<div class="card">
-  <div class="card-header">
-    Surveys
-  </div>
-  <div class="card-body">
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Name</th>
-          <th scope="col">Classifier</th>
-          <th scope="col">Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>New Login Screen</td>
-          <td>MS Office</td>
-          <td>Completed</td>
-        </tr>
-      </tbody>
-    </table>
 
+    </div>
   </div>
 </div>
