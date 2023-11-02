@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7H2EiHoS8xN5ZjentMBJwBpdcPeWcwTFxplz4EpZlZr30uYKoUjVZ0khpHZkXEl9ekrFnY5wNlmEi9UWPWerHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cuong.me\\source\\repos\\innov-team-28-tech-titans\\src\\xUserVoice\\Web\\Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cuong.me\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}

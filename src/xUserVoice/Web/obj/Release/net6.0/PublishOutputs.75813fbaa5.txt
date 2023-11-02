@@ -1,0 +1,7 @@
+C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\obj\Release\net6.0\PubTmp\Out\Web.exe
+C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\obj\Release\net6.0\PubTmp\Out\Web.dll
+C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\obj\Release\net6.0\PubTmp\Out\Web.deps.json
+C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\obj\Release\net6.0\PubTmp\Out\Web.runtimeconfig.json
+C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\obj\Release\net6.0\PubTmp\Out\Web.pdb
