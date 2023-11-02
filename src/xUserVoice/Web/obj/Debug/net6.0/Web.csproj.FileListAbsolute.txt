@@ -7,7 +7,6 @@ C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\obj\
 C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\obj\Debug\net6.0\Web.RazorAssemblyInfo.cs
 C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\bin\Debug\net6.0\appsettings.json
-C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\bin\Debug\net6.0\assets\favicon\manifest.json
 C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\bin\Debug\net6.0\Web.staticwebassets.runtime.json
 C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\bin\Debug\net6.0\Web.exe
 C:\Users\cuong.me\source\repos\innov-team-28-tech-titans\src\xUserVoice\Web\bin\Debug\net6.0\Web.deps.json
